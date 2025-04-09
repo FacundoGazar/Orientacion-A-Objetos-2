@@ -16,12 +16,6 @@ public class Movie {
 		this.similarMovies = new ArrayList<Movie>();
 	}
 	
-	public Movie(String title, Integer date, List<Movie> similarMovies) {
-		this.title = title;
-		this.date = date;
-		this.similarMovies = similarMovies;
-	}
-	
 	public void addSimilarMovie(Movie movie) {
 		if(!this.getSimilar().contains(movie)){
 			this.getSimilar().add(movie);
