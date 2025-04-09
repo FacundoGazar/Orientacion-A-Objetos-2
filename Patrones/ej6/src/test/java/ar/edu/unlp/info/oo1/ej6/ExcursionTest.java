@@ -1,11 +1,6 @@
 package ar.edu.unlp.info.oo1.ej6;
 
 import static org.junit.jupiter.api.Assertions.*;
-/*
-Escriba un test para inscribir a un usuario en la excursión “Dos días en kayak bajando el Paraná”, 
-con cupo mínimo de 1 persona y cupo máximo 2, con dos personas ya inscriptas. 
-Implemente todos los mensajes que considere necesarios.
- */
 
 import java.time.LocalDate;
 
