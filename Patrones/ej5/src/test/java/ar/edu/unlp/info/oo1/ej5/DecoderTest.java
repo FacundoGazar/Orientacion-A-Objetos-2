@@ -92,10 +92,10 @@ public class DecoderTest {
 	@Test
 	public void testNewestMovies() {
 		decoder.setDecoderStrategy(new NewStrategy());
-		List<Movie> bestRated = decoder.getSuggestion();
+		List<Movie> newestMovie = decoder.getSuggestion();
 		
-		assertTrue(bestRated.contains(p9));
-		assertTrue(bestRated.contains(p4));
-		assertTrue(bestRated.contains(p3));
+		assertTrue(newestMovie.contains(p9));
+		assertTrue(newestMovie.contains(p4));
+		assertTrue(newestMovie.contains(p3));
 	}
 }
