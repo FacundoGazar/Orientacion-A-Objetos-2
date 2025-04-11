@@ -1,7 +1,7 @@
 package ar.edu.unlp.info.oo1.ej2;
 
 public class Pasante extends Empleado{
-	public int examenesRendidos;
+	private int examenesRendidos;
 	
 	public Pasante(int examenesRendidos) {
 		this.examenesRendidos = examenesRendidos;
