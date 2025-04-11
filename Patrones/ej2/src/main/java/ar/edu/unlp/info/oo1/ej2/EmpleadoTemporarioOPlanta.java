@@ -1,8 +1,8 @@
 package ar.edu.unlp.info.oo1.ej2;
 
 public abstract class EmpleadoTemporarioOPlanta extends Empleado{
-	public boolean esCasado;
-	public int cantHijo;
+	private boolean esCasado;
+	private int cantHijo;
 	
 	public EmpleadoTemporarioOPlanta(boolean esCasado, int cantHijo) {
 		this.esCasado = esCasado;
