@@ -1,7 +1,7 @@
 package ar.edu.unlp.info.oo1.ej2;
 
 public class Planta extends EmpleadoTemporarioOPlanta{
-	public int aniosDeAntiguedad;
+	private int aniosDeAntiguedad;
 	
 	public Planta(boolean esCasado, int cantHijo, int aniosDeAntiguedad) {
 		super(esCasado, cantHijo);
