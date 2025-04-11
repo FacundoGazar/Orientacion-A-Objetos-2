@@ -1,7 +1,7 @@
 package ar.edu.unlp.info.oo1.ej2;
 
 public class Temporario extends EmpleadoTemporarioOPlanta{
-	public double cantHorasTrabajadas;
+	private double cantHorasTrabajadas;
 	
 	public Temporario(boolean esCasado, int cantHijo, double cantHorasTrabajadas) {
 		super(esCasado, cantHijo);
